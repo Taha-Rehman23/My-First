@@ -5,45 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Class Participation</title>
 </head>
 
-<body style="background-color: lightsteelblue;">
-    <h1 style=" border: 3px solid whitesmoke; padding: 0.5%; display: inline; text-align: center; margin: 25%;">Welcomme to my First Lecture's Learning </h1>
-    <p style="text-align: center; padding: 2%;">So Here we learned about introduction to html where we learned some tags like <strong> paragraphs, image and many more. </strong> <br> Also we get to know about doing styling with in html document instead of using css file saperatelly. <br>
+<body>
+    <h1>Welcomme to my First Lecture's Learning </h1>
+    <p>So Here we learned about introduction to html where we learned some tags like <strong> paragraphs, image and many more. </strong> <br> Also we get to know about doing styling with in html document instead of using css file saperatelly. <br>
         <Strong> So all
         other things which we learned will be implement below like tables styles and many more.</strong>
     </p>
-    <p style="text-align: right; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">THANK YOU! </p>
+    <p class="thank">THANK YOU! </p>
 
-    <img src="intro_image.jpg" alt="Our Stoke Exchange Statics" style="height: 450px; width: 1000px; padding: 50px; margin: 7%;">
+    <img class="intro_image" src="intro_image.jpg" alt="Our Stoke Exchange Statics">
 
-    <table style="border: 1px solid black; text-align: center;">
+    <table>
         <tr>
-            <td style="border: 1px solid black; text-align: center;">Product</td>
-            <td style="border: 1px solid black; text-align: center;">Price</td>
-            <td style="border: 1px solid black; text-align: center;">Quantity</td>
-            <td style="border: 1px solid black; text-align: center;">Avalibility</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Avalibility</td>
         </tr>
         <tr>
-            <td style="border: 1px solid black; text-align: center;">Laptop</td>
-            <td style="border: 1px solid black; text-align: center;">123000</td>
-            <td style="border: 1px solid black; text-align: center;">12</td>
-            <td style="border: 1px solid black; text-align: center;">yes</td>
+            <td>Laptop</td>
+            <td>123000</td>
+            <td>12</td>
+            <td>yes</td>
         </tr>
         <tr>
-            <td style="border: 1px solid black; text-align: center;">Keyboard</td>
-            <td style="border: 1px solid black; text-align: center;">11000</td>
-            <td style="border: 1px solid black; text-align: center;">0</td>
-            <td style="border: 1px solid black; text-align: center;">No</td>
+            <td>Keyboard</td>
+            <td>11000</td>
+            <td>0</td>
+            <td>No</td>
         </tr>
         <tr>
-            <td style="border: 1px solid black; text-align: center;">Desktops</td>
-            <td style="border: 1px solid black; text-align: center;">800000</td>
-            <td style="border: 1px solid black; text-align: center;">41</td>
-            <td style="border: 1px solid black; text-align: center;">yes</td>
+            <td>Desktops</td>
+            <td>800000</td>
+            <td>41</td>
+            <td>yes</td>
         </tr>
     </table>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="max 15 characters"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="max 15 characters"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="email..."><br>
+        <button type="submit"> Submit</button>
+    </form>
 </body>
 
 </html>
