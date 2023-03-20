@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(150, 180, 219);
+}
+
+td,
+table {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.intro_image {
+    height: 450px;
+    width: 1000px;
+    padding: 50px;
+    margin: 7%;
+}
+
+.thank {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    border: 3px solid whitesmoke;
+    padding: 0.5%;
+    display: inline;
+    text-align: center;
+    margin: 25%;
+}
+
+p {
+    text-align: center;
+    padding: 2%;
+}
+
+form {}
